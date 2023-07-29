@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <!--- local scripts -->
+        <script src="js/datetime.js"></script>
+        <script src="js/links.js"></script>
+        <script src="js/typewrite.js"></script>
+
+        <!--- Schibsted Grotesk -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--- typewriter + greeting module -->
+        <p id="welcomebox"></p>
+        <script>
+            typewriteerWelcomePhrase(200);
+        </script>
+
+        <div class='parent'>
+            <!--- date module -->
+            <p id="date"></p>
+            <script>
+                updateDate();
+            </script>
+
+            <!--- time module -->
+            <p id="time"></p>
+            <script>
+                updateTime();
+            </script>
+        </div>
+
+        <!--- empty starter div for links -->
+        <div class="container" id="links">
+            
+        </div>
+
+        <!--- js scripts to create links + link headers -->
+        <script>
+            createHeaders();
+            createLinks();
+        </script>
+    </body>
+</html>

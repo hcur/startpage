@@ -1,0 +1,61 @@
+body {
+    background-color: #202020;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+#welcomebox {
+    font-size: 34px;
+    position: relative;
+    left: 100px;
+    width: 600px;
+}
+
+.parent {
+    width: 80%;
+}
+
+#date {
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+    width: 175px;
+    display: inline-block;
+    top: -25px;
+}
+
+#time {
+    font-size: 18px;
+    position: relative;
+    left: 125px;
+    width: 150px;
+    display: inline-block;
+    top: -25px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 35px auto;
+
+    border-radius: 25px;
+    width: 80%;
+    
+    position: relative;
+    left: 100px;
+}
+
+.link-header {
+    color: #FFFFFF;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 19px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
